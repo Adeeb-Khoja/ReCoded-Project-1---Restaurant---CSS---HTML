@@ -40,7 +40,7 @@ html, body {
     text-align: center;
     font-size: 40px;
     font-weight:bold;
-    color: rgb(45, 189, 189);
+    color: rgb(147, 89, 126);
 }
 
 .main{
@@ -58,7 +58,7 @@ html, body {
   bottom: 0;
   right: 0;
   z-index: -1;
-  opacity: .6;
+  opacity: .3;
 }
 
 .desc{
@@ -72,13 +72,112 @@ html, body {
 	width: 30%;
 	padding:20px;
 	padding-bottom:20px;
+    padding-left:20px;
 }
 .col img{
 	width:100%;
 	height:350px;
+    align-items: center;
 }
 
 h1{
     margin: 30px;
 }
 
+.colC{
+	float:left;
+    align-items: center;
+	width: 30%;
+	padding:20px;
+	padding-bottom:20px;
+    background-color: #d7f6f6;
+    margin-left:20px;
+    border-radius: 30px;
+    height:400px;
+}
+.colC img{
+	width:100%;
+	height:350px;
+    align-items: center;
+}
+
+.row-2{
+    display:flex;
+    justify-content: center;
+}
+
+.chefsInfo{
+    text-align: center;
+}
+
+.colC p{
+    font-size:20px;
+}
+
+.container{
+    display:flex;
+    justify-content: center; 
+}
+
+.row-3{
+	display:flex;
+    justify-content: center;
+	background-color:#00758278;
+	height:510px;
+    width:530px;
+    border-radius: 25%;
+}
+.row-3 h1{
+    font-size: 30px;
+}
+
+.row-3 .form{
+	text-align:center;
+	width:50%;
+}
+.form textarea{
+	resize: none;
+}
+
+.row-3 .form .email{
+	height:40px;
+	width:250px;
+	padding-left:20px;
+	margin-bottom:20px;
+	border-radius:25px;
+	border: 2px solid black;
+}
+
+.row-3 .form .name{
+	height:40px;
+	width:250px;
+	padding-left:20px;
+	margin-bottom:20px;
+	border-radius:25px;
+	border: 2px solid black;
+}
+
+.row-3 .form .message{
+	width:250px;
+	padding-left:20px;
+	padding-top:20px;
+	border-radius:20px;
+	border: 2px solid black;
+	font-family: 'Poppins', sans-serif;
+}
+
+.btnsend{
+	height:50px;
+	width:100px;
+	border-radius:20px;
+	font-size:20px;
+	margin-top:20px;
+	color:#74c3c5;
+	font-weight:bold;
+	border: 1px solid;
+	margin-bottom:50px;
+}
+
+.btnsend:hover{
+	color:#29d6f5;
+}
