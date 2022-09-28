@@ -6,7 +6,7 @@ html, body {
     }
 
 .navbar{
-    background-color:azure;
+    background-color:#F5EFE6;
     height: 63px;
     
 }
@@ -26,7 +26,7 @@ html, body {
   }
 
 .navbar-nav a:hover{
-    background-color:#9dd5d6;
+    background-color:#FFE3E1;
     padding-top: 2px;
     transition: all 0.5s ease;
   }
@@ -38,9 +38,9 @@ html, body {
 
 .intro{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     font-weight:bold;
-    color: rgb(147, 89, 126);
+    color: #FF9494;
 }
 
 .main{
@@ -90,7 +90,7 @@ h1{
 	width: 30%;
 	padding:20px;
 	padding-bottom:20px;
-    background-color: #d7f6f6;
+    background-color: #FFE3E1;
     margin-left:20px;
     border-radius: 30px;
     height:400px;
@@ -122,7 +122,8 @@ h1{
 .row-3{
 	display:flex;
     justify-content: center;
-	background-color:#00758278;
+	/* background-color:#00758278; */
+    background-color:#FFE3E1;
 	height:510px;
     width:530px;
     border-radius: 25%;
@@ -172,12 +173,44 @@ h1{
 	border-radius:20px;
 	font-size:20px;
 	margin-top:20px;
-	color:#74c3c5;
+	color:#00000087;
 	font-weight:bold;
 	border: 1px solid;
 	margin-bottom:50px;
 }
 
 .btnsend:hover{
-	color:#29d6f5;
+	color:#FF9494;
+}
+
+.footer{
+	width: 100%;
+    height:80%;
+	display: block;
+	background: #F5EFE6;
+	color:black;
+	position: relative;
+	bottom: 0;
+}
+.inner-footer{
+	width: 1000px;
+	height: 100%;
+	display: block;
+    justify-content: center;
+	margin: 0 auto;
+	bottom:0;
+}
+.inner-footer .titlefooter{
+	font-family: "Helvetica";
+	font-size: 32px;
+	font-weight: 200;
+	padding-left: 390px;
+	font-weight:bold;
+}
+.inner-footer h1 span{
+	font-weight: 600;
+}
+
+.contactus{
+    text-align: center;
 }

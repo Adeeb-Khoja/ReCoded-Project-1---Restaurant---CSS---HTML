@@ -7,7 +7,7 @@ html, body {
     }
 
 .navbar{
-    background-color:azure;
+    background-color:#F5EFE6;
     height: 63px;
     
 }
@@ -27,7 +27,7 @@ html, body {
   }
 
 .navbar-nav a:hover{
-    background-color:#9dd5d6;
+    background-color:#FFE3E1;
     padding-top: 2px;
     transition: all 0.5s ease;
   }
@@ -41,7 +41,7 @@ html, body {
     text-align: center;
     font-size: 40px;
     font-weight:bold;
-    color: rgb(45, 189, 189);
+    color: #FF9494;
 }
 
 .main{
@@ -141,4 +141,39 @@ html, body {
     background-color: #7D6E83;
     border-style: none;
     height: 30px;
+}
+
+
+
+
+.footer{
+	width: 100%;
+    height:80%;
+	display: block;
+	background: #F5EFE6;
+	color:black;
+	position: relative;
+	bottom: 0;
+}
+.inner-footer{
+	width: 1000px;
+	height: 100%;
+	display: block;
+    justify-content: center;
+	margin: 0 auto;
+	bottom:0;
+}
+.inner-footer .titlefooter{
+	font-family: "Helvetica";
+	font-size: 32px;
+	font-weight: 200;
+	padding-left: 390px;
+	font-weight:bold;
+}
+.inner-footer h1 span{
+	font-weight: 600;
+}
+
+.contactus{
+    text-align: center;
 }
