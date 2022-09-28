@@ -96,13 +96,14 @@ html, body {
     display: flex;
     /* align-items: center; */
     flex-direction: column;
-    border-style: solid;
-    margin-right: 10px;
+    /* border-style: solid; */
+    margin-right: 20px;
     padding: 10px;
-    width: 30%;
+    width: 35%;
     background-color: #FFE3E1;
     border-radius: 30px;
     padding: 20px;
+    box-shadow: 20px 20px 50px grey;
 }
 
 .meal-img{
